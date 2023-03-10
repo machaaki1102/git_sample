@@ -2,9 +2,7 @@ import streamlit as st
 import pandas as pd
 from PIL import Image    
 
-
-path = 'C:\git_sample\streamlit_sample\inished_data.csv'
-df = pd.read_csv(path,index_col=0,encoding='cp932')
+df = pd.read_csv('data.csv',index_col=0,encoding='cp932')
 ###
 #body
 #sidebar
