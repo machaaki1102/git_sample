@@ -3,7 +3,7 @@ import pandas as pd
 from PIL import Image    
 
 
-path = 'C:\git_sample\streamlit_sample\finished_data.csv'
+path = 'C:\git_sample\streamlit_sample\inished_data.csv'
 df = pd.read_csv(path,index_col=0,encoding='cp932')
 ###
 #body
